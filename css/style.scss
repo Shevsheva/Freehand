@@ -1,0 +1,17 @@
+$font-first: 'Roboto', sans-serif;
+$font-second: 'Quicksand', sans-serif;
+$font-third: 'Nunito Sans', sans-serif;
+
+$font-size-first: 16px;
+$font-size-second: 24px;
+
+html {
+    max-width: 1155px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@import "components/header";
+@import "components/main";
+@import "components/footer"

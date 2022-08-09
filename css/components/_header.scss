@@ -1,0 +1,27 @@
+.header {
+    width: 1170px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 10px 10px 0px 45px;
+    border-bottom: 1px solid #EFEEF3;
+}
+
+.header__section{
+    display: flex;
+    margin: 22px 0;
+}
+
+.header__section-logo {
+    stroke-width: 2px;
+    overflow: hidden;
+    transform: translate(1px, 1px);
+    margin-right: 15px;
+}
+
+.header__section-text {
+    font-family: $font-second;
+    font-size: 35px;
+    line-height: 35px;
+    margin-left: 15px;
+    color: #16133D
+}
